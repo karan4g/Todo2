@@ -99,7 +99,7 @@ function ToDoList() {
         : null}
       <ListItemButton>
         <ListItemIcon>
-          <AddCircleIcon />
+          <AddCircleIcon onClick={() => onSubmit()} />
         </ListItemIcon>
         <Stack spacing={2} direction="row">
           <TextField
